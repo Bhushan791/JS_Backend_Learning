@@ -1,0 +1,32 @@
+npm init 
+npm install express
+npm install nodemon --save-dev
+npm install --save-dev prettier
+npm install mongoose
+npm install dotenv
+
+
+{extras: npm i cookie-parser cors }
+
+
+INSIDE PACKAGE.JSON: 
+WHILE NPM RUN :
+
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+
+
+INSIDE  PACKAGE.JSON BELOW DESCRIPTION:
+ "type": "module",
+
+
+
+
+
+
+
+//for this prooject extra :
+mongoose aggregate 
+npm i mongoose-aggregate-paginate-v2
+bycript js  , jwt

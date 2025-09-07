@@ -30,3 +30,5 @@ INSIDE  PACKAGE.JSON BELOW DESCRIPTION:
 mongoose aggregate 
 npm i mongoose-aggregate-paginate-v2
 bycript js  , jwt
+
+npm install cloudinary, multer     [used email :hmm]

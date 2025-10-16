@@ -18,7 +18,9 @@ avatar :{
     type:String, //cloudinary URL
     required:true
 }, 
-coverImage:String,
+coverImage: {
+     type: String
+}, 
 
 watchHistory: [{
 
@@ -45,7 +47,7 @@ if (!this.isModified("password")){
     return next(); 
 
     }
-this.password= bcrypt.hash(this.password, 8)
+this.password= await bcrypt.hash(this.password, 8)
 next()} )
 
 userSchema.methods.isPasswordCorrect= async function(password){
